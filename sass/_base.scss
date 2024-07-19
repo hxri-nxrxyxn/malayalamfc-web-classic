@@ -1,0 +1,33 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: calc(0.12em + 1vw);
+}
+
+body {
+	scroll-behavior: smooth;
+	background: repeating-linear-gradient(to right, white 0px, white 160px, var(--color-border) 160px, #dfe6e9 160.65px);
+}
+
+body::-webkit-scrollbar{
+	display: none;
+}
+
+p {
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+	font-size: 62.5%;
+  }
+}
